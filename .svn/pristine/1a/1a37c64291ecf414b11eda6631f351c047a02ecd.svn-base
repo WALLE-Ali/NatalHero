@@ -1,0 +1,230 @@
+body,div{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: #fff1ba url(../img/banner.jpg) center top no-repeat;
+    font-family: "微软雅黑"!important;
+
+}
+.fontStyle{
+    color: #412600;
+    font-size: 17px;
+    padding-left: 5%;
+    font-family: "微软雅黑"!important;
+}
+.fontTitle{/* 公共的类 */
+    color: #302a07;
+    font-size: 2em;
+    font-weight: bolder;
+    font-family: "微软雅黑"!important;
+}
+.fontTitle span{
+    color: #a0903a;
+    font-size: 1em;
+
+}
+.fcred{
+    color:rgb(242, 35, 35);
+    font-size: 0.5em;
+    display: block;
+    margin-left: 85%;
+    margin-top: -5%;
+}
+.box{
+    width: 1100px;
+    margin: 0 auto;
+}
+.IDInfo{
+    color: #ff9938;
+    font-size: 16px;
+    font-weight: bold;
+}
+.InfoName{
+    color: #a69644;
+    font-size: 22px;
+}
+
+/*.main{
+    width: 1100px;
+    margin: 0 auto;
+    position: relative;
+}*/
+.bdBg{
+    position: relative;
+    height: 865px;
+}
+
+
+.postBar{
+    display: block;
+    width: 213px;
+    height: 59px;
+    background: url(../img/tieba.png) 0 0 no-repeat;
+    position: absolute;
+    left: 40%;
+    top: 64%;
+}
+.tribune{
+    display: block;
+    width: 213px;
+    height: 59px;
+    background:  url(../img/tribune.png) 0 0 no-repeat;
+    position: absolute;
+    left: 65%;
+    top: 64%;
+}
+.switchBtn{
+    width: 198px;
+    height: 70px;
+    position: absolute;
+    top: 85%;
+    overflow: hidden;
+}
+.indexBtn{
+    left:30%;
+}
+.worksBtn{
+    left: 52%;
+}
+.switchBtn img{
+    position: absolute;
+    left: 0;
+}
+.indexBtn img{
+    top:0;
+}
+.worksBtn img{
+    top: -70px;
+}
+.btnActiveC img{
+    left:-198px;
+}
+.btnActive img{
+    left:-198px;
+}
+
+/* 内容部分 */
+.conBox{
+    width: 1100px;
+    margin:0 auto;
+}
+.col-md-4{
+    float: left;
+}
+.prize{
+    float: left;
+    margin-right: 10%;
+}
+.rater{
+    float: left;
+
+}
+.indexBox{
+}
+.hideBox{
+    display: none;
+}
+.timebox{
+    margin-left: 6%;
+}
+.timebox2{
+    margin-left: 4%;
+}
+.timeImg1{
+    margin-left: -9%;
+}
+.timeImg2{
+    margin-left: 77%;
+}
+.timeImg3{
+    margin-left: 162%;
+}
+.prize{
+    text-align: center;
+    margin-right: 6%;
+}
+.footIcon{
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+.goodworks{
+    margin: 0 auto;
+}
+.ulList{
+    padding-left: 8%;
+}
+.listLi{
+    width: 100%;
+    border-radius: 10px;
+    background: #f2e5ae;
+    overflow: hidden;
+    padding: 10px;
+    margin-bottom: 5%;
+}
+.logoImg{
+    border-radius:32px;
+    float: left;
+    margin-left: 10px;
+
+}
+
+.infoBox{
+    float: left;
+    margin-left: 6%;
+}
+.detailBtn{
+    float: left;
+    margin-left: 20%;
+}
+.ulList{
+    margin-left: -6%;
+}
+.prizeBox{
+    margin-left: 4%;
+    margin-bottom: 4%;
+    overflow: hidden;
+}
+.prizeBox .prize{
+    margin-right: 10%;
+}
+.rater{
+    margin-right: 3%;
+}
+.raterBox{
+    margin-left: 4%;
+    overflow: hidden;
+}
+
+/*百度分享 样式修改*/
+#bdsharebuttonbox{
+    position: absolute;
+    left: 35%;
+    top:95%;
+}
+
+.bds_tsina{
+    display: block!important;
+    width: 86px!important;
+    height: 46px!important;
+    background: url(../img/xinlang.png) 0 0 no-repeat!important;
+}
+.bds_sqq{
+    display: block!important;
+    width: 86px!important;
+    height: 46px!important;
+    background: url(../img/qq.png) 0 0 no-repeat!important;
+}
+.bds_tieba{
+    display: block!important;
+    width: 86px!important;
+    height: 46px!important;
+    background: url(../img/baidu.png) 0 0 no-repeat!important;
+}
+.bds_weixin{
+    display: block!important;
+    width: 86px!important;
+    height: 46px!important;
+    background: url(../img/weixin.png) 0 0 no-repeat!important;
+}
